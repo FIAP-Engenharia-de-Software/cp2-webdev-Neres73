@@ -9,9 +9,51 @@
 // - Retornar `"Erro: operação inválida"` se for passado um operador desconhecido;
 // - Executar a operação correta e retornar o resultado;
 
-function calcular(num1, num2, operador) {
-  // TODO: implementar função
+function pegarnumero1() {
+  numero1 = 5
+  return numero1
+
 }
+
+function pegarnumero2() {
+  numero2 = 5
+  return numero2
+
+
+
+}
+
+function escolha() {
+  escolha = "+"
+  return escolha
+
+
+
+}
+
+
+function calcular(pegarnumero1,pegarnumero2,escolha) {
+  if (escolha = "/")
+    resultado = (pegarnumero1/pegarnumero2)
+
+  if (escolha = "+")
+    resultado = (pegarnumero1 + pegarnumero2)
+
+  if (escolha = "-")
+    resultado = (pegarnumero1 - pegarnumero2)
+  if (escolha = "*")
+    resultado = (pegarnumero1 * pegarnumero2)
+  return resultado
+  
+}
+calcular()
+
+
+
+
+
+
+
 
 
 //NÃO REMOVA O CÓDIGO ABAIXO

@@ -12,9 +12,30 @@
 
 // **Fórmula IMC**: peso / (altura * altura)
 
-function calcularIMC(peso, altura) {
-  // TODO: implementar função
+function altura(){
+    valor1 = prompt("digite sua altura")
+    return valor1
+
+
 }
+
+function peso(){
+    valor2 = prompt("digite seu peso")
+    return valor2
+
+
+
+}
+
+
+
+
+function calcularIMC(peso, altura) {
+    resultadofinal = (peso / altura*altura)
+    return resultadofinal
+
+}
+calcularIMC()
 
 // NÃO REMOVA O CÓDIGO ABAIXO
 module.exports = { calcularIMC };
